@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "https://chat-app-eta-three-19.vercel.app",
-    credentials: true,
+    
   })
 );
 
