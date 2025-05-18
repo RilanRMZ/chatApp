@@ -19,7 +19,7 @@ const __dirname = path.resolve();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-  cors({origin: "https://chat-app-eta-three-19.vercel.app", withCredential: true})
+  cors({origin: "https://chat-app-eta-three-19.vercel.app", credentials: true})
 );
 
 app.use("/api/auth", authRoutes);
