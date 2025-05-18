@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chat-app-server-five-alpha.vercel.app",
+    origin: "https://chat-app-eta-three-19.vercel.app",
     credentials: true,
   })
 );
