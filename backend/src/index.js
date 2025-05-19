@@ -33,6 +33,11 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+app.get(/, (req, res) => {
+        res.send("WELCOME TO MERN CHAT APPLICATION")
+})
+
+
 server.listen(PORT, () => {
   console.log("server is running on PORT:" + PORT);
   connectDB();
