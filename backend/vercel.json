@@ -1,6 +1,6 @@
 {
   "version": 2,
- "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+
   "routes": [
     {
       "src": "/(.*)",
@@ -12,5 +12,6 @@
         "Access-Control-Allow-Headers": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
       }
     }
-  ]
+  ],
+   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
 }
