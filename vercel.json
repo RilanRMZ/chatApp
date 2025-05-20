@@ -2,7 +2,7 @@
   "version": 2,
 "builds": [
  {
- "src": "package.json",
+ "src": "/",
  "use": "@vercel/node"
  }
  ],
@@ -18,5 +18,6 @@
       }
     }
   ],
-   "rewrites": [{ "source": "/(.*)", "destination": "/backend/src/index.js" }],
+   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+   "buildCommand": "npm run build",
 }
