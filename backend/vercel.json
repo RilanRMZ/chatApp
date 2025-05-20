@@ -18,5 +18,5 @@
       }
     }
   ],
-   "rewrites": [{ "source": "/(.*)", "destination": "/backend/src/index.js" }],
+   "rewrites": [{ "source": "/(.*)", "destination": "/src/index.js" }],
 }
