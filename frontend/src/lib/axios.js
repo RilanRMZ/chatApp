@@ -5,4 +5,5 @@ export const axiosInstance = axios.create({
     import.meta.env.MODE === "development"
       ? "http://localhost:5001/api"
       : "https://chatapp-server-2cfu.onrender.com/api",
+   withCredentials: true,
 });
