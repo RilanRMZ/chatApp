@@ -18,6 +18,6 @@
       }
     }
   ],
-   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+   "rewrites": [{ "source": "/(.*)", "destination": "src/index.js" }],
    
 }
