@@ -19,7 +19,7 @@ const __dirname = path.resolve();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-  cors({origin: "https://chatapp-server-2cfu.onrender.com", credentials: true,  optionSuccessStatus:200})
+  cors({origin: "https://chatapp-frontend-642m.onrender.com", credentials: true,  optionSuccessStatus:200})
 );
 
 app.use("/api/auth", authRoutes);
